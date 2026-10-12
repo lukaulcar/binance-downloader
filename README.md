@@ -24,8 +24,6 @@ Built specifically for algorithmic trading and backtesting engines that require 
 
 ## Installation (Maven)
 
-### Option 1: JitPack (Recommended)
-
 1. Add the JitPack repository to your `pom.xml`:
 ```xml
 <repositories>
@@ -44,22 +42,6 @@ Built specifically for algorithmic trading and backtesting engines that require 
     <version>v1.0.0</version>
 </dependency>
 ```
-
-### Option 2: Local Install (`mvn install`)
-
-If you want to use it locally across projects without publishing to a remote repository first:
-```bash
-./mvnw clean install
-```
-Then simply add the standard dependency to your other projects:
-```xml
-<dependency>
-    <groupId>com.lukaulcar</groupId>
-    <artifactId>binance-downloader</artifactId>
-    <version>1.0.0</version>
-</dependency>
-```
-
 ---
 
 ## Quickstart Guide
