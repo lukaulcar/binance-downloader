@@ -7,7 +7,7 @@ target/
 .kotlin
 
 # Local Kline storage binary files
-storage/
+/storage/
 *.bin
 
 ### IntelliJ IDEA ###
